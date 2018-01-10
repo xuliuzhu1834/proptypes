@@ -3,21 +3,21 @@
 
 由于react 16 以后将不带PropTypes，故在升级过程中需要迁移出来，单独用`prop-types`包来引用
 
-###Input
+### Input
 ```ecmascript 6
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { Tabs } from 'antd';
 ```
-###output
+### output
 ```ecmascript 6
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { Tabs } from 'antd';
 ```
-###Tip
+### Tip
     只针对jsx文件
 
-###Usage
+### Usage
 node app.js
